@@ -35,6 +35,9 @@
                         <manifest>
                             <mainClass>Main</mainClass>
                         </manifest>
+                        <manifestEntries>
+                            <SplashScreen-Image>images/sea.png</SplashScreen-Image>
+                        </manifestEntries>
                     </archive>
                 </configuration>
             </plugin>

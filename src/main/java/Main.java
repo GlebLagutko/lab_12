@@ -28,17 +28,7 @@ public class Main extends JFrame {
 
         setPreferredSize(new Dimension(700, 700));
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        JWindow window = new JWindow();
-        window.getContentPane().add(
-                new JLabel("", new ImageIcon(ResourceLoader.getFileUrl("images/sea.png")), SwingConstants.CENTER));
-        window.setBounds(0, 0, 840, 497);
-        window.setVisible(true);
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        window.setVisible(false);
+    
         bar = new JMenuBar();
         menu = new JMenu("file");
         openXml = new JMenuItem("openXML");
