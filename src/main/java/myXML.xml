@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<games>
+    <game year="2014">
+        <name>The Wither 3</name>
+        <sales>10000000</sales>
+        <rating>98</rating>
+    </game>
+    <game year="2012">
+        <name>GTA V</name>
+        <sales>8000000</sales>
+        <rating>92</rating>
+    </game>
+    <game year="2019">
+        <name>Ori and the will of the wisps</name>
+        <sales>3000000</sales>
+        <rating>95</rating>
+    </game>
+    <game year="2010">
+        <name>Shrek 2</name>
+        <sales>30000000</sales>
+        <rating>100</rating>
+    </game>
+</games>
